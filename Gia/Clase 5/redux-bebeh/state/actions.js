@@ -6,6 +6,6 @@ import { createAction } from "redux-actions";
 export const HOLA = "HOLA";
 export const CHAU = "CHAU";
 
-// Action Creators
+// Action Creators (los que despacho a traves de props)
 export const decirHola = createAction(HOLA);
 export const decirChau = createAction(CHAU);
